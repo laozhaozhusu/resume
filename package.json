@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/laozhaozhusu/resume.git",
+  "author": "xipengzhao",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "vuepress": "^1.9.10"
+  },
+  "dependencies": {
+    "async-validator": "^4.2.5",
+    "element-ui": "^2.15.12"
+  }
+}
