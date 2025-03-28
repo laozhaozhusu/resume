@@ -2,25 +2,21 @@
 
 ## 专业技能
 
-- 熟练使用 React 框架以及 React-Router、Zustand 和 Tailwind CSS 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
-- 熟练使用 Node.js 进行 RESTful API 设计与开发
-- 熟悉使用 Babel/Webpack/Vite 编译和构建工具，并有实施、调优经验
-- 熟悉使用 TypeScript，熟练运用类型系统进行静态检查，提升代码可维护性，优化大型前端项目的类型安全和开发效率
-- 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
-- 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流管理开发进度
-- 熟练使用 Jest/Vitest 编写单元测试，使用 Playwright 编写 E2E 测试和视觉回归测试
-- 熟练使用 Chrome DevTools、Lighthouse、Web Vitals 以及 Charles 等工具优化网站性能、调试和提升用户体验
-- 熟练使用 GitHub Actions 管理自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube 检查等等，了解 Jenkins 基本用法
-- 熟练使用 GitHub Pages、Netlify 和 Vercel 等 CD 工具部署产品
-- 熟悉使用 New Relic / Dynatrace 等 APM 工具对上线的产品进行性能监控和优化
-- 熟悉使用  Pendo 工具分析用户行为、优化产品体验
-- 具备C#基础，能够编写简单的后端服务
+- 深入理解 HTML5 新特性，掌握语义化标签和响应式布局；精通 CSS3，能熟练运用 Flex、Grid 布局，熟悉 Sass/Scss 预处理器
+- 精通 JavaScript，熟练掌握 ES6+新特性，如箭头函数、解构赋值、模块化等；能编写高效、可维护的代码
+- 精通 React.js 和 Vue.js，熟悉其生态系统和常用库，如 Zustand、Redux、Vuex、React Router、Vue Router 等
+- 具备前端性能优化经验，如懒加载、代码拆分、资源压缩、缓存策略等；了解浏览器渲染机制和常见性能瓶颈
+- 精通使用 Jest 或 Vitest 编写单元测试,熟练使用 Playwright 编写视觉回归测试以及端对端测试
+- 熟练使用 Webpack、Babel、Vite 等构建工具，优化项目性能；熟悉 NPM/Yarn 包管理工具，了解常见插件和配置
+- 熟练使用 Git 进行版本控制，掌握常见的 Git 工作流，如 Git Flow；熟悉 GitHub/GitLab 等代码托管平台
+- 使用 Vercel 工具实现前端部署以及在 Docker 上使用 nginx 镜像部署前端应用
+- 使用 New Relic/Dynatrace 等 APM 工具对上线的产品进行性能监控和优化
 
 ## 工作经历
 
-**拓德（武汉）软件有限公司｜前端开发｜ DCE ｜ 2021/11-2025/4**
+**拓德（武汉）软件有限公司｜前端开发｜ DCE ｜ 2021/11-至今**
 
-- 负责 admin、conversation app、AI ChatBot 产品前端开发，三个产品对应了管理员、客服人员、客户三种角色主线流程以及数据流转。
+- 负责 admin、conversation-app、web-chat 产品前端开发，三个产品对应了管理员、客服人员、客户三种角色主线流程以及数据流转。
 - 参与并主持每日站会、迭代计划会、迭代回顾会和评审会。
 - 与产品负责人紧密合作，编写用户故事，定义验收标准，确保需求明确且可验证。
 - 使用 Jira 管理项目任务和用户故事，实时跟踪项目进度
@@ -48,38 +44,33 @@
 
 ## 项目经历
 
-**Conversation app 前端开发**
+**Conversation-app 前端开发**
 
 项目描述：Conversation-app 为客服人员提供交互功能，例如接听和拨打电话、短信、电子邮件和其他数字渠道。使客服人员能够轻松提供无缝和个性化的体验，同时从单一界面维护对话及其所有上下文。
 
 项目职责：
 
 - 推动 email/chat/sms/Fbm/WhatsApp/DG 等多个数字化渠道 Saas 云客服平台落地。
+- 基于 GraphQL 利用 BFF 减少前端请求数量。
 - 使用 TypeScript 重构项目。
-- 使用 jest 编写单元测试，测试覆盖率达到 80%
 - 使用 swr 做数据请求管理，利用 preload 和缓存优化性能。
 - 基于 Lexical 二次开发的 td-richtext 内部工具库。
 - 维护公司的 Cobalt 组件库，开发 dropdown-utils。
 - 使用 Server-Sent Events 实现服务端推送，相比于 WebSocket 显著提升产品的性能。
 - 基于 twilio 的服务开发 chat 聊天产品。
-- 集成 Openai 实现翻译、扩写、润化等功能
 - 采用状态与 UI 解耦的原则，将组件分离成 UI 组件与容器组件，降低了代码复杂度，提升开发效率。
 - 采用适配器模式统一多个数字化渠道的第三方服务。
 
+**Chat Widget 前端开发**
 
-**AI ChatBot 前端开发**
-
-项目描述：AI ChatBot 是自研的聊天机器人、帮助企业或个人解决问题、处理业务往来和提供产品服务等
+项目描述：Chat Widget 是一个可以嵌入到客户网站中的 JS SDK，用于给联系人和客服人员聊天使用。
 
 项目职责：
 
-- 使用 Prettier/ESLint/Stylelint/CSpell/commitlint/husky 等工具，提升代码质量与团队协作效率
-- 在服务器上部署大模型、提供 Node.js SDK 对接 ChatBot 项目
-- 接入 OpenAI/DeepSeek 等 LLM 服务，提供 visual agent 服务，显著提高人效
-- 使用 Vitest 编写单元测试，测试覆盖率达到 90%+
-- 使用 Playwright 编写视觉回归测试，可甄别出 1px 的改动，UI 的 Bugs 降低 60%
-- 接入 NewRelic 和 Dynatrace 工具，收集、分析和展示产品的性能数据，帮助发现性能、故障等
-- 使用 GitHub Actions 管理产品自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube 检查
+- 负责 Chat Widget V1 版本的维护。
+- 并新开发了 Chat Widget V2 版本。
+- 支持 Chat Widget 主题自定义，实现 sdk 级别预览、提升初始化时间。
+- 实现各类消息组件
 
 **智慧法制一体化 4.0 平台 前端开发**
 
